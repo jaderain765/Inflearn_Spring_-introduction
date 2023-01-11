@@ -6,3 +6,26 @@
 
 
 
+스프링의 객체지향
+SOLID : 객체 지향 설계
+
+*단일 책임 원칙(Single Responsibility Principle)
+	한 클래스느 하나의 책임만 가져야 한다.
+
+*개방-폐쇄 원칙(OCP:Open-Close Principle) : 확장에는 열려있고, 수정, 변경에는 닫혀있다.
+	DI(Depedencies Injection)을 사용하면 *기존코드를 전혀 손대지 않고, 설정만으로 구현 클래스를 변경*할 수 있다.
+	
+	회원을 등록하고 DB에 결과가 잘 입력되는지 확인하자.
+	데이터를 DB에 저장하므로 스프링 서버를 다시 실행해도 데이터가 안전하게 저장된다.
+
+*리스코프 치환 원칙(Liskov Substitution Principle)
+	프로그램의 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다.
+
+*인터페이스 분리 원칙(Interface Segregation Principle)
+	특정 클라이언트를 위한 인터페이스 여러개가 범용 인터페이스 하나보다 낫다.
+
+*의존관계 역전 원칙(Dependency Inversion Principle)
+	프로그래머는 "추상화에 의존해야지, 구체화에 의존하면 안된다." 의존성 주입은 이 원칙을 따르는 방법 중 하나다.
+
+
+
